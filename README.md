@@ -10,7 +10,7 @@ Random console apps, snippets and mini-projects created for implementing Algorit
 * All codes are run in [CygWin](https://www.cygwin.com/) compiler using g++   (GCC) 7.3.0, GNU gdb (GDB)(Cygwin 8.0.1-1) 8.0.1 and GNU Make 4.2.1.
   Go to this [link](https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/) for installation guide.
 
-* IDE - NetBeans & Code::Blocks
+* IDE - Code::Blocks
 ---
 
 ### Coded by:
