@@ -6,7 +6,7 @@
 
 /* 
  * File:   main.c
- * Author: 9page
+ * Author: Arnel G. Imperial
  *
  * Created on 30 August 2018, 23:13
  */

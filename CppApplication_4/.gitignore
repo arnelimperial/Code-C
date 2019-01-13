@@ -1,6 +1,9 @@
 # Created by https://www.gitignore.io/api/cmake,netbeans
 # Edit at https://www.gitignore.io/?templates=cmake,netbeans
 
+Makefile
+/nbproject/
+.dep.inc
 ### CMake ###
 CMakeLists.txt.user
 CMakeCache.txt
