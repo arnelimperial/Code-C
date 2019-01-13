@@ -6,7 +6,6 @@ Makefile linguist-vendored
 makefile linguist-vendored
 
 
-## languag usage
+## language usage
 
-*.cc linguist-language=cpp
-*.C linguist-language=cpp
+*.c linguist-language=c

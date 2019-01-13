@@ -1,29 +1,12 @@
-# Created by https://www.gitignore.io/api/cmake,netbeans
-# Edit at https://www.gitignore.io/?templates=cmake,netbeans
+# Created by https://www.gitignore.io/api/codeblocks
+# Edit at https://www.gitignore.io/?templates=codeblocks
+Project8.cbp
+### CodeBlocks ###
+# specific to CodeBlocks IDE
+*.layout
+*.depend
+# generated directories
+bin/
+obj/
 
-Makefile
-/nbproject/
-.dep.inc
-### CMake ###
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-
-### NetBeans ###
-**/nbproject/private/
-**/nbproject/Makefile-*.mk
-**/nbproject/Package-*.bash
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-# End of https://www.gitignore.io/api/cmake,netbeans
+# End of https://www.gitignore.io/api/codeblocks

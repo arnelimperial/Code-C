@@ -1,49 +1,95 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   main.c
- * Author: Arnel G. Imperial
- *
- * Created on 30 August 2018, 23:13
- */
+*file: main.C
+*Author: Arnel Imperial
+*Created: August 31, 2018 @ 17:37
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
-
-/*
- * 
- */
-
-void comments(char gender, int age){
-    //gender in ASCII value DEC
-    
-    if((gender == 109) && (age >=0) && (age <=55)){
-        printf("You are man in your best years!");
-    }else if((gender == 109) && (age >=56) && (age <=100 )){
-        printf("You are a wise man!");
-    }else if((gender == 102) && (age >=0) &&(age <=55)){
-         printf("You are a beauty!");
-    }else if((gender == 102) && (age >=56) && (age <=100)){
-        printf("You look young for your age!");
-    }else{
-        printf("An error occurred in the program");
-    }
-    
-    
+void addition(int num1, int num2){
+    int temp1 = num1;
+    int temp2 = num2;
+    int concatenation = temp1 + temp2;
+    printf("\n%d + %d = %d\n", temp1, temp2, concatenation);
 }
-int main(void) {
-    char gender;
-    int age;
-    printf("Are you a male or female (m/f)? ");
-    scanf("%c", &gender);
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    comments(gender, age);
-    return 0;
+
+void subtraction(int num1, int num2){
+    int temp1 = num1;
+    int temp2 = num2;
+    int difference = temp1 - temp2;
+    printf("%d - %d = %d\n", temp1, temp2, difference);
+}
+
+void multiplication(int num1, int num2){
+    int temp1 = num1;
+    int temp2 = num2;
+    int product = temp1 * temp2;
+    printf("%d * %d = %d\n", temp1, temp2, product);
+}
+
+int main()
+{
+    int integer1, integer2, selection;
+    printf("1: subtraction\n2: addition\n3: multiplication\nSelect a function: ");
+    scanf("%d", &selection);
+
+    if((selection <=0) || (selection >3)){
+            printf("Wrong selection\n");
+            printf("1: subtraction\n2: addition\n3: multiplication\nSelect a function: ");
+            scanf("%d", &selection);
+    }
+
+            if((selection ==1) || (selection == 2) || (selection == 3)){
+                printf("Enter the first number: ");
+                scanf("%d", &integer1);
+                printf("Enter the second number: ");
+                scanf("%d", &integer2);
+
+                switch(selection){
+                    case 1:
+                        subtraction(integer1, integer2);
+                        break;
+
+                    case 2:
+                        addition(integer1, integer2);
+                        break;
+
+                    case 3:
+                        multiplication(integer1, integer2);
+                        break;
+
+                    default:
+                        printf("Wrong selection!\n");
+                        break;
+                        }
+            }
+
+
+    else{
+        printf("Enter the first number: ");
+        scanf("%d", &integer1);
+        printf("Enter the second number: ");
+        scanf("%d", &integer2);
+        switch(selection){
+    case 1:
+        subtraction(integer1, integer2);
+        break;
+
+    case 2:
+        addition(integer1, integer2);
+        break;
+
+    case 3:
+        multiplication(integer1, integer2);
+        break;
+
+    default:
+        printf("Wrong selection!\n");
+        break;
+        }
+    }
+
+return 0;
 }
 
