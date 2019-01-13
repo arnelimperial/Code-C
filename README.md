@@ -2,7 +2,7 @@
 
 ***v1.0.0***
 
-Random console apps, snippets and mini-projects created for implementing Algorithms and data structure in C/C++ and as partial completion of programming course in Metropolia Open Studies.
+Random console apps, snippets and mini-projects created for implementing Algorithms and data structure in C and as partial completion of programming course in Metropolia Open Studies.
 
 ---
 
