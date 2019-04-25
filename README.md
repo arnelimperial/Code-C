@@ -1,4 +1,4 @@
-# ubiquitous-System
+<h2 align=center color=blue>Code C</h2>
 
 ***v1.0.0***
 
@@ -13,5 +13,10 @@ Random console apps, snippets and mini-projects created for implementing Algorit
 * IDE - [Code::Blocks](http://www.codeblocks.org/) 17.12 
 ---
 
-### Coded by:
-Arnel Gonzales Imperial
+
+#### License
+zlib
+
+
+### Coder:
+Arnel Imperial
